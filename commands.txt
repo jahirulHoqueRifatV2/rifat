@@ -1,0 +1,37 @@
+
+   59  php artisan migrate
+   60  php artisan serve
+   61  php artisan make:model assignments -mc
+   
+   63  php artisan 
+   64  php artisan migrate:rollback
+   
+   66  php artisan migrate:fresh
+   
+   70  php artisan cache clear
+   
+   72  php artisan config:cache
+   
+   75  php artisan tinker
+   
+  
+  113  php artisan make:model Artical -mc
+  114  php artisan make:model Artical -mcr
+  
+  121  php artisan help make:controller
+  122  php artisan key:generate
+  123  php artisan config:cache
+  124  php artisan cache:clear
+  125  php artisan view:clear
+  126  php artisan route:clear
+  127  php artisan config:cache
+  
+  155  php  artisan make:model Info
+  156 
+  160  php artisan make:model Info -c -r
+  161  php artisan make:model Artical -c -r
+  162  php artisan make:migration create_posts_table
+  163  php artisan migrate
+  164  php artisan make:migration add_title_to_posts_table
+  165  php artisan migrate
+  
